@@ -102,10 +102,12 @@ export const linkIcons = [
   {
     icon: <FontAwesomeIcon icon={faLinkedin} />,
     caption: "LinkedIn",
+    link: "https://www.linkedin.com/in/sarahesbie/",
   },
   {
     icon: <FontAwesomeIcon icon={faGithub} />,
     caption: "GitHub",
+    link: "https://github.com/sarahesbie",
   },
 ];
 
