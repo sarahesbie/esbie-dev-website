@@ -10,41 +10,41 @@ import {
   ImageTextBlock,
   Paragraph,
   Spacer,
-  TextWithTooltip,
+  //   TextWithTooltip,
   TwoColumnBlock,
 } from "./imports";
 import { cardData, techIcons, linkIcons } from "../../public/content/content";
 import RandomMessage from "./RandomMessage";
 
-const HeroSection = () => (
-  <FullWidthSection>
-    <ImageTextBlock
-      imageSrc="/sarah-brown-web-developer.png"
-      altText="hero image"
-    >
-      <Heading level={1}>
-        Hi, I'm Sarah!👋🏼 <br />
-        I'm a{" "}
-        <TextWithTooltip
-          text="cloud native,"
-          tooltipContent="I design applications specifically for the cloud, so they can scale efficiently, recover quickly, and adapt as needed."
-          gradientIndex={1}
-        />{" "}
-        <TextWithTooltip
-          text="full-stack"
-          tooltipContent="I handle both front-end and back-end development, managing everything from the user interface to the server"
-          gradientIndex={2}
-        />{" "}
-        <TextWithTooltip
-          text="web developer"
-          tooltipContent="I create and maintain websites and web applications"
-          gradientIndex={3}
-        />
-        .
-      </Heading>
-    </ImageTextBlock>
-  </FullWidthSection>
-);
+// const HeroSection = () => (
+//   <FullWidthSection>
+//     <ImageTextBlock
+//       imageSrc="/sarah-brown-web-developer.png"
+//       altText="hero image"
+//     >
+//       <Heading level={1}>
+//         Hi, I'm Sarah!👋🏼 <br />
+//         I'm a{" "}
+//         <TextWithTooltip
+//           text="cloud native,"
+//           tooltipContent="I design applications specifically for the cloud, so they can scale efficiently, recover quickly, and adapt as needed."
+//           gradientIndex={1}
+//         />{" "}
+//         <TextWithTooltip
+//           text="full-stack"
+//           tooltipContent="I handle both front-end and back-end development, managing everything from the user interface to the server"
+//           gradientIndex={2}
+//         />{" "}
+//         <TextWithTooltip
+//           text="web developer"
+//           tooltipContent="I create and maintain websites and web applications"
+//           gradientIndex={3}
+//         />
+//         .
+//       </Heading>
+//     </ImageTextBlock>
+//   </FullWidthSection>
+// );
 
 const Section = ({
   title,
@@ -65,7 +65,7 @@ export default function EsbieContent() {
   return (
     <>
       {" "}
-      <HeroSection />
+      {/* <HeroSection /> */}
       {/* <Section title="My Work">
         <CardGallery
           cards={cardData.map((card, index) => (

@@ -16,7 +16,7 @@ import InteractiveHeading from "esbie-component-library/dist/components/molecule
 import IconWithCaption from "esbie-component-library/dist/components/molecules/IconWithCaption/IconWithCaption";
 import ThemeToggle from "esbie-component-library/dist/components/molecules/ThemeToggle/ThemeToggle";
 import HeadingWithIcon from "esbie-component-library/dist/components/molecules/HeadingWithIcon/HeadingWithIcon";
-import TextWithTooltip from "esbie-component-library/dist/components/molecules/TextWithToolTip/TextWithToolTip";
+// import TextWithTooltip from "esbie-component-library/dist/components/molecules/TextWithToolTip/TextWithToolTip";
 
 // Importing Organisms
 import IconGallery from "esbie-component-library/dist/components/organisms/IconGallery/IconGallery";
@@ -67,7 +67,7 @@ export {
   IconWithCaption,
   ThemeToggle,
   HeadingWithIcon,
-  TextWithTooltip,
+  //   TextWithTooltip,
 
   // Organisms
   IconGallery,
