@@ -9,10 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "esbie-component-library": "^1.0.7",
+    "@fortawesome/fontawesome-svg-core": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "esbie-component-library": "^1.0.17",
     "next": "^13.5.7",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "sass": "^1.81.0"
   },
   "devDependencies": {
     "@types/node": "^20",
