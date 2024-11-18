@@ -21,6 +21,7 @@ import {
   faServer,
   faBrain,
   faTicket,
+  faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const techIcons = [
@@ -149,3 +150,7 @@ export const cardData = [
     backgroundImage: "https://picsum.photos/300/200?random=3",
   },
 ];
+
+export const faIcons = {
+  arrowRight: <FontAwesomeIcon icon={faArrowRight} />,
+};

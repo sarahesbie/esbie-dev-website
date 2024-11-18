@@ -13,9 +13,15 @@ import {
   //   TextWithTooltip,
   TwoColumnBlock,
 } from "./imports";
-import { cardData, techIcons, linkIcons } from "../../public/content/content";
+import {
+  cardData,
+  techIcons,
+  linkIcons,
+  faIcons,
+} from "../../public/content/content";
 import RandomMessage from "./RandomMessage";
 import GradientText from "./Components/GradientText/GradientText";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const HeroSection = () => (
   <FullWidthSection>
@@ -103,7 +109,7 @@ export default function EsbieContent() {
           leftColumn={
             <HeadingWithIcon
               level={2}
-              icon={<i className="fa-solid fa-arrow-right"></i>}
+              icon={faIcons.arrowRight}
               iconPosition="right"
             >
               More from me
