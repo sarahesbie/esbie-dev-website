@@ -18,6 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${figtree.variable} ${azeretMono.variable}`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
