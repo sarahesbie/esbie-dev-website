@@ -22,6 +22,7 @@ import {
   faBrain,
   faTicket,
   faArrowRight,
+  faArrowLeft,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const techIcons = [
@@ -153,4 +154,5 @@ export const cardData = [
 
 export const faIcons = {
   arrowRight: <FontAwesomeIcon icon={faArrowRight} />,
+  arrowLeft: <FontAwesomeIcon icon={faArrowLeft} />,
 };
