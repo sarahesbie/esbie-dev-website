@@ -12,16 +12,17 @@ import {
   Spacer,
   //   TextWithTooltip,
   TwoColumnBlock,
-} from "./imports";
+} from "../libs/imports";
 import {
   cardData,
   techIcons,
   linkIcons,
   faIcons,
 } from "../../public/content/content";
-import RandomMessage from "./RandomMessage";
-import GradientText from "./Components/GradientText/GradientText";
+import RandomMessage from "../components/RandomMessage";
+import GradientText from "../components/GradientText/GradientText";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import PortfolioPage from "./portfolio/page";
 
 const HeroSection = () => (
   <FullWidthSection>
@@ -72,7 +73,7 @@ export default function EsbieContent() {
   return (
     <>
       {" "}
-      <HeroSection />{" "}
+      <HeroSection /> <PortfolioPage />
       {/* <Section title="My Work">
         <CardGallery
           cards={cardData.map((card, index) => (
@@ -95,9 +96,13 @@ export default function EsbieContent() {
         <Heading level={2}>About Me</Heading>
         <Spacer size="small" />
         <Paragraph size="medium">
-          I'm a passionate full-stack developer who thrives on building
-          scalable, elegant solutions to modern web challenges. When I'm not
-          coding, I'm <RandomMessage />
+          After several incredible years with Code Like a Girl, where I honed my
+          skills as a senior software developer and tech leader, I'm now seeking
+          my next opportunity. I specialise in full-stack development (Next.js,
+          Node.js, AWS) and thrive in creating scalable, user-focused solutions
+          while fostering inclusive, collaborative teams. Based in South
+          Australia, I'm open to remote roles—let's connect and chat about how I
+          can contribute to your team's success!
         </Paragraph>{" "}
         <Spacer size="large" />
       </FullWidthSection>
@@ -112,13 +117,25 @@ export default function EsbieContent() {
               icon={faIcons.arrowRight}
               iconPosition="right"
             >
-              More from me
+              More from me online
             </HeadingWithIcon>
           }
           rightColumn={
             <IconGallery icons={linkIcons} withCaptions={true} size="large" />
           }
         />
+      </FullWidthSection>
+      <FullWidthSection>
+        <HeadingWithIcon
+          level={2}
+          icon={faIcons.arrowRight}
+          iconPosition="right"
+        >
+          Offline
+        </HeadingWithIcon>
+        <Paragraph>
+          When I'm not coding I'm <RandomMessage />
+        </Paragraph>
       </FullWidthSection>
     </>
   );
